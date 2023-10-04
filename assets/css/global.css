@@ -1,0 +1,19 @@
+:root {
+    --bg-color-primary: #464646;
+    --bg-color-secondary: #393939;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color-primary);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}

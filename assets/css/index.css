@@ -1,0 +1,22 @@
+@import url("./global.css");
+
+body {
+    color: #fff;
+}
+
+/* Cabeçalho do site */
+header {
+    background-color: #393939;
+    padding: 20px 0;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+}
