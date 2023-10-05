@@ -1,44 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <title>Resumo - Igor</title>
 </head>
+
 <body>
     <header>
-        <nav class="nav__menu container">
-            <ul class="nav__list d-flex">
-                <li class="nav__list__item">
-                    <a class="nav__link" href="./pages/contato.html">Contato</a>
-                </li>
-                <li class="nav__list__item">
-                    <a class="nav__link" href="./pages/curriculo.html">Curriculo</a>
-                </li>
-                <li class="nav__list__item">
-                    <a class="nav__link" href="./pages/github.html">Github</a>
-                </li>
-                <li class="nav__list__item">
-                    <a class="nav__link" href="./pages/servicos.html">Serviços</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="header container">
+            <div class="box__logotipo">
+                <img class="logotipo__vasco" src="./assets/img/escudo_vasco.png" alt="Escudo do Vasco da Gama">
+            </div>
+            <nav class="nav__menu">
+                <ul>
+                    <li>
+                        <a class="nav__link" href="#resumo">Resumo</a>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="./pages/contato.html">Contato</a>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="#curriculo">Curriculo</a>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="./pages/github.html">Github</a>
+                    </li>
+                    <li>
+                        <a class="nav__link" href="./pages/servicos.html">Serviços</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section>
+        <section id="resumo">
             <div class="container">
                 <div class="resume">
-                    <div class="resume__itens">
-                        <div class="resume__item">
+                    <div class="resume__item">
+                        <img class="foto" src="./assets/img/minha-foto.png" alt="">
+                    </div>
+                    <div class="resume__item">
+                        <h1>Resumo</h1>
+                        <div class="resume__detalhes">
+                            <p>Meu nome é Igor, tenho 25 anos e sou torcedor do Clube de Regatas Vasco da Gama (vulgo
+                                Vascão). </p>
+                        </div>
 
+                    </div>
+                </div>
+                <div class="resume__cards">
+                    <div class="resume__card">
+                        <h3>Hobbies</h3>
+                        <p>Gosto de estudar filosofia, neurociência e ver vídeos sobre astronomia. Também jogo alguns
+                            jogos como CSGO e Terraria.</p>
+                    </div>
+                    <div class="resume__card">
+                        <h3>Habilidades</h3>
+                        <p>Acredito que eu consigo aprender as coisas facilmente. Gosto bastante de desenvolver
+                            soluções, já fiz alguns cursos extracurriculares como curso de PM (Product Manager) e UX
+                            Desgin que me agregaram bastante.</p>
+                    </div>
+                    <div class="resume__card">
+                        <h3>Planos</h3>
+                        <p>Pretendo usar os conhecimentos da área de tecnologia para criar produtos inovadores que
+                            resolvam algum tipo de problema de algum tipo de pessoas, e que isso me traga um bem
+                            financeiro. Espero construir uma bela família também.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="curriculo">
+            <div class="container">
+                <div class="resume--column">
+                    <div class="resume__item">
+                        <h1>Curriculo</h1>
+                        <div class="resume__detalhes">
+                            <p>RevOps Developer no @Agendor • Front-end development • Automation n8n • Javascript • PHP
+                                • Webflow</p>
+                        </div>
+                    </div>
+                    <div class="resume__item--title">
+                        <h3>Sobre mim</h3>
+                        <div class="resume__detalhes">
+                            <p>Trabalho na área de RevenueOps, criando automações internas para a empresa e também
+                                externas (voltadas aos clientes) que tem por finalidade trazer resultados para a receita
+                                da empresa. Tenho conhecimento e já trabalhei com UX Design (fui mentor do evento
+                                Service Jam Vitória), criação de interfaces e desenvolvimento web utilizando PHP,
+                                Javascript e frameworks/bibliotecas relacionadas.</p>
+                            <br>
+                            <p>Além do curso de Ciência da computação, tenho me aprimorado estudando algoritmos,
+                                modelagem e criação de banco de dados e padrões de projetos. Gosto de estar sempre
+                                aprendendo e de problemas que me desafiem a tirar o melhor de mim, porque isso me mostra
+                                onde eu devo me aprimorar.</p>
+                        </div>
+                    </div>
+                    <div class="resume__item--title">
+                        <h3>Principais competencias</h3>
+                        <div class="resume__cards">
+                            <div class="resume__card">
+                                <h3>★★★★★ Javascript</h3>
+                                <p>O JavaScript surgiu como uma tecnologia do lado do navegador para tornar as
+                                    aplicações Web mais dinâmicas</p>
+                            </div>
+                            <div class="resume__card">
+                                <h3>★★★ PHP</h3>
+                                <p>PHP é uma linguagem interpretada livre, usada originalmente apenas para o
+                                    desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de
+                                    gerar conteúdo dinâmico na World Wide Web.</p>
+                            </div>
+                            <div class="resume__card">
+                                <h3>★★★ UX Design</h3>
+                                <p>UX Design é a área que desenha a experiência de usuários (user experience design)
+                                    considerando negócios, tecnologia e pessoas.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="servicos">
+            <div class="container">
+                <h1 class="servicos-title">Tabela de serviços</h1>
+                <table border="1px">
+                    <tr align="left">
+                        <th></th>
+                        <th>Criacao de App Nativo</th>
+                        <th>Criacao de App Web</th>
+                        <th>Criacao de landing page</th>
+                    </tr>
+                    <tr align="left">
+                        <th>Valor</th>
+                        <td>R$15.000,00</td>
+                        <td>R$8.000,00</td>
+                        <td>R$2.000,00</td>
+                    </tr>
+                    <tr align="left">
+                        <th>Prazo</th>
+                        <td>6 meses</td>
+                        <td>3 meses</td>
+                        <td>1 semana</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="form">
+            <div class="container">
+                <h1 class="contato-title">Contato</h1>
+                <div class="form-control">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Teste</label>
+                            <input type="text" name="" id="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
