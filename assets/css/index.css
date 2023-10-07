@@ -209,3 +209,7 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+footer a {
+    color: var(--active-color);
+}
