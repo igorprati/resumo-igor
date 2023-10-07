@@ -97,6 +97,10 @@ header {
     margin-top: 30px;
 }
 
+audio {
+    margin-top: 20px;
+}
+
 .resume__item--title h3 {
     color: var(--active-color);
     margin-bottom: 30px;
@@ -169,10 +173,39 @@ td, th {
 }
 
 form {
-    margin-top: 20px;
+    background-color: var(--bg-color-primary);
+    width: 500px;
+    padding: 20px 40px;
+    border-radius: 10px;
 }
 
 .form-control {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group-radio h3 {
+    margin: 20px 0;
+}
+
+.form-control input{
+    padding: 5px 10px;
+}
+
+.form-control select{
+    padding: 5px 10px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #121212;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
 }
